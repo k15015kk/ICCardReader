@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92D594C2501E325007624BC /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92D594B2501E325007624BC /* ExternalAccessory.framework */; };
+		F9BA889B25013EE0009AEB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA889A25013EE0009AEB4A /* AppDelegate.swift */; };
+		F9BA889D25013EE0009AEB4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA889C25013EE0009AEB4A /* SceneDelegate.swift */; };
+		F9BA889F25013EE0009AEB4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA889E25013EE0009AEB4A /* ContentView.swift */; };
+		F9BA88A125013EE3009AEB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BA88A025013EE3009AEB4A /* Assets.xcassets */; };
+		F9BA88A425013EE3009AEB4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BA88A325013EE3009AEB4A /* Preview Assets.xcassets */; };
+		F9BA88A725013EE3009AEB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BA88A525013EE3009AEB4A /* LaunchScreen.storyboard */; };
+		F9BA88B225013EE3009AEB4A /* ICCardReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA88B125013EE3009AEB4A /* ICCardReaderTests.swift */; };
+		F9BA88BD25013EE3009AEB4A /* ICCardReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA88BC25013EE3009AEB4A /* ICCardReaderUITests.swift */; };
+		F9BA88CB250150A8009AEB4A /* NFCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA88CA250150A8009AEB4A /* NFCHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BA88AE25013EE3009AEB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BA888F25013EE0009AEB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BA889625013EE0009AEB4A;
+			remoteInfo = ICCardReader;
+		};
+		F9BA88B925013EE3009AEB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BA888F25013EE0009AEB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BA889625013EE0009AEB4A;
+			remoteInfo = ICCardReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F92D59492501E317007624BC /* ICCardReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ICCardReader.entitlements; sourceTree = "<group>"; };
+		F92D594B2501E325007624BC /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		F9BA889725013EE0009AEB4A /* ICCardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICCardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BA889A25013EE0009AEB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BA889C25013EE0009AEB4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9BA889E25013EE0009AEB4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9BA88A025013EE3009AEB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BA88A325013EE3009AEB4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9BA88A625013EE3009AEB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9BA88A825013EE3009AEB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BA88AD25013EE3009AEB4A /* ICCardReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICCardReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BA88B125013EE3009AEB4A /* ICCardReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICCardReaderTests.swift; sourceTree = "<group>"; };
+		F9BA88B325013EE3009AEB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BA88B825013EE3009AEB4A /* ICCardReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICCardReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BA88BC25013EE3009AEB4A /* ICCardReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICCardReaderUITests.swift; sourceTree = "<group>"; };
+		F9BA88BE25013EE3009AEB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BA88CA250150A8009AEB4A /* NFCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BA889425013EE0009AEB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92D594C2501E325007624BC /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88AA25013EE3009AEB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88B525013EE3009AEB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92D594A2501E325007624BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92D594B2501E325007624BC /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9BA888E25013EE0009AEB4A = {
+			isa = PBXGroup;
+			children = (
+				F9BA889925013EE0009AEB4A /* ICCardReader */,
+				F9BA88B025013EE3009AEB4A /* ICCardReaderTests */,
+				F9BA88BB25013EE3009AEB4A /* ICCardReaderUITests */,
+				F9BA889825013EE0009AEB4A /* Products */,
+				F92D594A2501E325007624BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BA889825013EE0009AEB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA889725013EE0009AEB4A /* ICCardReader.app */,
+				F9BA88AD25013EE3009AEB4A /* ICCardReaderTests.xctest */,
+				F9BA88B825013EE3009AEB4A /* ICCardReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BA889925013EE0009AEB4A /* ICCardReader */ = {
+			isa = PBXGroup;
+			children = (
+				F92D59492501E317007624BC /* ICCardReader.entitlements */,
+				F9BA889A25013EE0009AEB4A /* AppDelegate.swift */,
+				F9BA889C25013EE0009AEB4A /* SceneDelegate.swift */,
+				F9BA889E25013EE0009AEB4A /* ContentView.swift */,
+				F9BA88A025013EE3009AEB4A /* Assets.xcassets */,
+				F9BA88A525013EE3009AEB4A /* LaunchScreen.storyboard */,
+				F9BA88A825013EE3009AEB4A /* Info.plist */,
+				F9BA88A225013EE3009AEB4A /* Preview Content */,
+				F9BA88CA250150A8009AEB4A /* NFCHelper.swift */,
+			);
+			path = ICCardReader;
+			sourceTree = "<group>";
+		};
+		F9BA88A225013EE3009AEB4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA88A325013EE3009AEB4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9BA88B025013EE3009AEB4A /* ICCardReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA88B125013EE3009AEB4A /* ICCardReaderTests.swift */,
+				F9BA88B325013EE3009AEB4A /* Info.plist */,
+			);
+			path = ICCardReaderTests;
+			sourceTree = "<group>";
+		};
+		F9BA88BB25013EE3009AEB4A /* ICCardReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA88BC25013EE3009AEB4A /* ICCardReaderUITests.swift */,
+				F9BA88BE25013EE3009AEB4A /* Info.plist */,
+			);
+			path = ICCardReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BA889625013EE0009AEB4A /* ICCardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BA88C125013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReader" */;
+			buildPhases = (
+				F9BA889325013EE0009AEB4A /* Sources */,
+				F9BA889425013EE0009AEB4A /* Frameworks */,
+				F9BA889525013EE0009AEB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICCardReader;
+			productName = ICCardReader;
+			productReference = F9BA889725013EE0009AEB4A /* ICCardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BA88AC25013EE3009AEB4A /* ICCardReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BA88C425013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReaderTests" */;
+			buildPhases = (
+				F9BA88A925013EE3009AEB4A /* Sources */,
+				F9BA88AA25013EE3009AEB4A /* Frameworks */,
+				F9BA88AB25013EE3009AEB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BA88AF25013EE3009AEB4A /* PBXTargetDependency */,
+			);
+			name = ICCardReaderTests;
+			productName = ICCardReaderTests;
+			productReference = F9BA88AD25013EE3009AEB4A /* ICCardReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9BA88B725013EE3009AEB4A /* ICCardReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BA88C725013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReaderUITests" */;
+			buildPhases = (
+				F9BA88B425013EE3009AEB4A /* Sources */,
+				F9BA88B525013EE3009AEB4A /* Frameworks */,
+				F9BA88B625013EE3009AEB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BA88BA25013EE3009AEB4A /* PBXTargetDependency */,
+			);
+			name = ICCardReaderUITests;
+			productName = ICCardReaderUITests;
+			productReference = F9BA88B825013EE3009AEB4A /* ICCardReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BA888F25013EE0009AEB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = haruki;
+				TargetAttributes = {
+					F9BA889625013EE0009AEB4A = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F9BA88AC25013EE3009AEB4A = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F9BA889625013EE0009AEB4A;
+					};
+					F9BA88B725013EE3009AEB4A = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F9BA889625013EE0009AEB4A;
+					};
+				};
+			};
+			buildConfigurationList = F9BA889225013EE0009AEB4A /* Build configuration list for PBXProject "ICCardReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BA888E25013EE0009AEB4A;
+			productRefGroup = F9BA889825013EE0009AEB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BA889625013EE0009AEB4A /* ICCardReader */,
+				F9BA88AC25013EE3009AEB4A /* ICCardReaderTests */,
+				F9BA88B725013EE3009AEB4A /* ICCardReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BA889525013EE0009AEB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BA88A725013EE3009AEB4A /* LaunchScreen.storyboard in Resources */,
+				F9BA88A425013EE3009AEB4A /* Preview Assets.xcassets in Resources */,
+				F9BA88A125013EE3009AEB4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88AB25013EE3009AEB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88B625013EE3009AEB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BA889325013EE0009AEB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BA889B25013EE0009AEB4A /* AppDelegate.swift in Sources */,
+				F9BA88CB250150A8009AEB4A /* NFCHelper.swift in Sources */,
+				F9BA889D25013EE0009AEB4A /* SceneDelegate.swift in Sources */,
+				F9BA889F25013EE0009AEB4A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88A925013EE3009AEB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BA88B225013EE3009AEB4A /* ICCardReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BA88B425013EE3009AEB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BA88BD25013EE3009AEB4A /* ICCardReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BA88AF25013EE3009AEB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BA889625013EE0009AEB4A /* ICCardReader */;
+			targetProxy = F9BA88AE25013EE3009AEB4A /* PBXContainerItemProxy */;
+		};
+		F9BA88BA25013EE3009AEB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BA889625013EE0009AEB4A /* ICCardReader */;
+			targetProxy = F9BA88B925013EE3009AEB4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BA88A525013EE3009AEB4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BA88A625013EE3009AEB4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BA88BF25013EE3009AEB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9BA88C025013EE3009AEB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BA88C225013EE3009AEB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICCardReader/ICCardReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ICCardReader/Preview Content\"";
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ICCardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BA88C325013EE3009AEB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICCardReader/ICCardReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ICCardReader/Preview Content\"";
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ICCardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9BA88C525013EE3009AEB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				INFOPLIST_FILE = ICCardReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICCardReader.app/ICCardReader";
+			};
+			name = Debug;
+		};
+		F9BA88C625013EE3009AEB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				INFOPLIST_FILE = ICCardReaderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICCardReader.app/ICCardReader";
+			};
+			name = Release;
+		};
+		F9BA88C825013EE3009AEB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				INFOPLIST_FILE = ICCardReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ICCardReader;
+			};
+			name = Debug;
+		};
+		F9BA88C925013EE3009AEB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UAEL4H37J9;
+				INFOPLIST_FILE = ICCardReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagoya.kyoto.ICCardReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ICCardReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BA889225013EE0009AEB4A /* Build configuration list for PBXProject "ICCardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BA88BF25013EE3009AEB4A /* Debug */,
+				F9BA88C025013EE3009AEB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BA88C125013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BA88C225013EE3009AEB4A /* Debug */,
+				F9BA88C325013EE3009AEB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BA88C425013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BA88C525013EE3009AEB4A /* Debug */,
+				F9BA88C625013EE3009AEB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BA88C725013EE3009AEB4A /* Build configuration list for PBXNativeTarget "ICCardReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BA88C825013EE3009AEB4A /* Debug */,
+				F9BA88C925013EE3009AEB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BA888F25013EE0009AEB4A /* Project object */;
+}
